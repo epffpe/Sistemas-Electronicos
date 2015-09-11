@@ -1,0 +1,41 @@
+﻿Compilación iniciada a las 25/02/2011 18:54:32.
+     1>Proyecto "D:\Designs\Sistemas Electronicos\Practica1\Practica1\Practica1\Practica1.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Aplicando tarea Touch a "Debug\Practica1.unsuccessfulbuild".
+       ClCompile:
+         Todas las salidas están actualizadas.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Practica1.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Practica1.cpp uKConsola.cpp uKHW.cpp uKMsg.cpp uKTask.cpp uKernel.cpp
+         uKernel.cpp
+         uKTask.cpp
+         uKMsg.cpp
+         uKHW.cpp
+         uKConsola.cpp
+         Practica1.cpp
+     1>d:\designs\sistemas electronicos\practica1\practica1\practica1\practica1.cpp(17): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : vea la declaración de 'scanf'
+         Generando código...
+       ManifestResourceCompile:
+         Todas las salidas están actualizadas.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Designs\Sistemas Electronicos\Practica1\Practica1\Debug\Practica1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Practica1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Designs\Sistemas Electronicos\Practica1\Practica1\Debug\Practica1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Designs\Sistemas Electronicos\Practica1\Practica1\Debug\Practica1.lib" /MACHINE:X86 Debug\Practica1.exe.embed.manifest.res
+         Debug\Practica1.obj
+         Debug\stdafx.obj
+         Debug\uKConsola.obj
+         Debug\uKernel.obj
+         Debug\uKHW.obj
+         Debug\uKMsg.obj
+         Debug\uKTask.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Practica1.exe.embed.manifest" /manifest Debug\Practica1.exe.intermediate.manifest
+         Todas las salidas están actualizadas.
+       LinkEmbedManifest:
+         Todas las salidas están actualizadas.
+         Practica1.vcxproj -> D:\Designs\Sistemas Electronicos\Practica1\Practica1\Debug\Practica1.exe
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Debug\Practica1.unsuccessfulbuild".
+         Aplicando tarea Touch a "Debug\Practica1.lastbuildstate".
+     1>Compilación del proyecto terminada "D:\Designs\Sistemas Electronicos\Practica1\Practica1\Practica1\Practica1.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:05.01
